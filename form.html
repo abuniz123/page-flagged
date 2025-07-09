@@ -375,18 +375,6 @@
             
                  
                 }),
-            })
-            .then((response) => {
-                if (response.ok) {
-                    window.location.href = "password.html";
-                } else {
-                    throw new Error('Submission failed');
-                }
-            })
-            .catch((error) => {
-                console.error("Submission error:", error);
-                alert("An error occurred. Please try again.");
-            })
             .finally(() => {
                 submitButton.classList.remove('btn-loading');
                 submitButton.disabled = false;
